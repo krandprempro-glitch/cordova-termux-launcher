@@ -10,7 +10,7 @@ Key areas:
 
 
 ### Before build: ###
-Modify `AndroidManifest.xml` (platform/CordovaLib)— declares a `<queries>` entry for `com.termux` (visibility):
+Modify `AndroidManifest.xml` (platforms/CordovaLib)— declares a `<queries>` entry for `com.termux` (visibility):
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   android:versionName="1.0"
@@ -20,3 +20,4 @@ Modify `AndroidManifest.xml` (platform/CordovaLib)— declares a `<queries>` ent
   </queries>
 </manifest>
 ```
+
